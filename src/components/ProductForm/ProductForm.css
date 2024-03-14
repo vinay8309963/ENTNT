@@ -1,0 +1,29 @@
+.product-form {
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+  }
+  
+  .product-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .product-form input,
+  .product-form button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .product-form button {
+    background-color: #54a0ff;
+    color: #fff;
+    cursor: pointer;
+  }
+  

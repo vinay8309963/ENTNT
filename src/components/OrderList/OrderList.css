@@ -1,0 +1,61 @@
+.order-list {
+  font-family: Arial, sans-serif;
+}
+
+.order-list input[type="date"] {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.order-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.order-list th, .order-list td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.order-list th {
+  background-color: #f2f2f2;
+}
+
+.order-list tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.order-list tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.order-list tbody tr:hover {
+  background-color: #f0f0f0;
+}
+
+.order-list button {
+  background-color: green;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.order-list button:hover {
+  background-color: red;
+}
+
+.delete-selected {
+  background-color: #f44336; 
+  color: white;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px; 
+}
+
+.delete-selected:hover {
+  background-color: #d32f2f; 
+}

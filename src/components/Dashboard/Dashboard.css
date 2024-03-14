@@ -1,0 +1,49 @@
+.dashboard {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.dashboard-header {
+  background-color: #007bff; 
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.dashboard-title {
+  margin: 0;
+}
+
+.metrics {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.metric {
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.nav-link {
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link:hover {
+  background-color: #0056b3; 
+}
+
