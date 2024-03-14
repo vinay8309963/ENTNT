@@ -6,6 +6,7 @@ const ProductForm = ({ onSubmit }) => {
   const initialProductString = localStorage.getItem('editProduct');
   const initialProduct = JSON.parse(initialProductString);
   const navigate = useNavigate();
+
   const [name, setName] = useState(initialProduct ? initialProduct.name : '');
   const [category, setCategory] = useState(initialProduct ? initialProduct.category : '');
   const [price, setPrice] = useState(initialProduct ? initialProduct.price : 0);
@@ -19,6 +20,13 @@ const ProductForm = ({ onSubmit }) => {
     setPrice(0);
     setStock(0);
     navigate('/');
+  };
+
+  const handleClearFields = () => {
+    setName("");
+    setCategory("");
+    setPrice(0);
+    setStock(0);
   };
 
   return (
@@ -58,6 +66,7 @@ const ProductForm = ({ onSubmit }) => {
           />
         </label>
         <button type="submit">Add Product</button>
+        <button type="button" onClick={handleClearFields}>Clear Fields</button>
       </form>
     </div>
   );
